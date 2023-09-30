@@ -67,6 +67,7 @@ p {
     display: flex;
     animation: slide 9s infinite;
 }
+
 @keyframes slide{
     0%{
         transform: translateX(0);
