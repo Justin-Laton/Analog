@@ -54,16 +54,57 @@ p {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 9s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(0);
+    }
+    40%{
+        transform: translateX(-100%);
+    }
+    60%{
+        transform: translateX(-100%);
+    }
+    80%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+}
+
 .image-container {
     max-width: 100%;
     margin: 0 auto;
-    text-align: center;
+    position: relative;
+    display: flex;
+    height: auto; 
+    animation: slide 9s infinite;
 }
 
-.image-container img {
-    max-width: 100%;
-    height: auto; 
-}
 
 a{
     color: #000000;
